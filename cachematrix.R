@@ -1,6 +1,6 @@
 ## Caching the Inverse of a Matrix
-## To optimize the matrix inversion, the following functions caches 
-## the result of inversion of the matrix. These functions are referenced
+## To optimize the matrix inversion, the following functions cache 
+## the result of an inversion of a matrix. These functions are referenced
 ## from makeVector and cachemean(https://github.com/rdpeng/ProgrammingAssignment2) 
 ## that are used to create a special object that stores a numeric vector 
 ## and caches its mean.
@@ -28,8 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve inverses the matrix created from makeCachMatrix.
-## First, it checks if it already has inverse, and the matrix 
-## has not been changed, then the cached inversed is retrieved.
+## First, it checks if inverse is already computed and the matrix 
+## has not been changed, then, the cached inversed is retrieved.
 ## This function assumes that matrix is a square matrix, thus,
 ## square invertible
 
